@@ -1,0 +1,79 @@
+body {
+/*Color de fondo*/
+/* font family se copio de google fonts */
+font-family: "Anek Devanagari", sans-serif;
+background-color: #FFFDDB;
+background: linear-gradient(#FFFDDB,#f8ef39);
+background: repeat center/100% url(https://png.pngtree.com/thumb_back/fw800/background/20220714/pngtree-colorful-background-for-web-design-wallpaper-decoration-modern-photo-image_32710632.jpg);
+/* Saber si hay que centrar o justificar o asi el texto */
+text-align: center;
+}
+
+h3 {
+/* color de texto */
+color:#140348;
+font-family: "Inconsolata", monospace;
+}
+
+h1{
+color: darkmagenta;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#background {
+height: 500px;
+width: 1000px;
+border-radius: 10px;
+align-self: center;
+}
+/* Para modificar CSS de un elemento 
+en particular HTML, asignamos una clase (CLASS)
+y esa la llamamos en CSS con un punto . antes del /  */
+/.banner{
+height: 800px;
+width: 300px;
+}
+
+/* Editar DIV dek menú */
+.menu{
+  /* DIV flexible para moverse con los elementos */
+    display: flex;
+    /* En columna */
+    flex-direction:column;
+    /* Alinea items de forma centrada */
+    align-items: center;
+}
+
+/* Anclas de menu */
+    a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 16px;
+        /* anclas como botones */
+        background-color: aquamarine;
+        padding: 1opx 20px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+
+
+        a:hover{
+            background-color: #f8ef39;
+            color: #140348;
+        }
+
+    .container{
+        background-color: aquamarine;
+        display: flex;
+
+        /* align items-- alinear verticalmente */
+        align-items: center;
+    }
+
+    .logolasanta{
+        display:flex;
+        align-items: center;
+        margin-right: 1px;
+        margin-left: 1px;
+    }
